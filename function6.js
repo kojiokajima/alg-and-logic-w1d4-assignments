@@ -1,6 +1,6 @@
 function evenOdd(num) {
     if (num % 1 !== 0) {
-        return 'Invalid input. Try again';
+        return 'Invalid input. Try again.';
     } else if (num % 2 === 0) {
         return 'It is an even number.';
     } else {
@@ -8,6 +8,6 @@ function evenOdd(num) {
     }
 }
 
-let result = evenOdd(9);
+let result = evenOdd(19);
 
 console.log(result);
